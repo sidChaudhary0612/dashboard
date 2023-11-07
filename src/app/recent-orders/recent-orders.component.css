@@ -1,0 +1,28 @@
+.orderTable{
+    height: 20rem;
+    overflow-y: scroll;
+    
+}
+.orderTable h4{
+    padding: 1.5rem 0 0 1rem;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.orderTable table{
+    /* height: 10rem; */
+    overflow: scroll;
+    box-shadow: 0 0 0 0;
+}
+.colorRed{
+    background-color: red;padding: 0.25rem 0.5rem;text-align: center;border-radius: 0.25rem;
+
+}
+.colorGrey{
+    background-color: lightgrey;    padding: 0.25rem 0.5rem;text-align: center;border-radius: 0.25rem;
+
+}
+.colorGreen{
+    background-color: lightgreen;    padding: 0.25rem 0.5rem;text-align: center;
+    border-radius: 0.25rem;
+}

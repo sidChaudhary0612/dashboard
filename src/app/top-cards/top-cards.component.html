@@ -1,0 +1,18 @@
+<div class="savingCards" fxLayout="row" fxLayoutAlign="space-between">
+    <div fxLayout="row" fxFlex="22%"  *ngFor="let cards of topCards">
+    <mat-card >
+        <div class="topCards" fxLayout="row" fxLayoutAlign="space-between" >
+            <div>
+                <h1>{{cards.value}}%</h1>
+                <h3>{{cards.header}}</h3>
+                <h5>{{cards.sub_header}}</h5>
+            </div>
+            <div>
+                <mat-icon>{{cards.icon}}</mat-icon>
+            </div>
+        </div>
+    </mat-card>
+    
+    
+</div>
+</div>

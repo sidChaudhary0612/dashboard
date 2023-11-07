@@ -1,0 +1,21 @@
+<div class="background" fxLayout="column">
+    <app-top-cards></app-top-cards>
+    
+    <div fxLayout="row" fxLayoutAlign="space-between">
+        <app-recent-orders fxFlex="65%"></app-recent-orders>
+        <app-new-registration fxFlex="32%"></app-new-registration>
+    </div>
+    <div class="charts" fxLayout="row" fxLayoutAlign="space-between">
+        <div fxFlex="35%">
+            <mat-card><app-sales-chart></app-sales-chart></mat-card>
+        </div>
+        <div fxFlex="35%">
+            <mat-card><app-bar-chart></app-bar-chart></mat-card>
+        </div>
+        <div fxFlex="25%">
+            <mat-card><app-top-products-chart></app-top-products-chart></mat-card>
+        </div>
+
+
+    </div>
+</div>

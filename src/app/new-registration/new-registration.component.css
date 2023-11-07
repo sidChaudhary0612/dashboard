@@ -1,0 +1,54 @@
+.userRegistration {
+    height: 20rem;
+    overflow-y: scroll;
+}
+.userRegistration mat-card{
+    padding: 1rem;
+    box-shadow: 0 0 0 0;
+}
+.mat-mdc-progress-bar{
+    min-width: 5rem;
+}
+.userRegistration div{
+    padding:0.25rem 0;
+}
+.userRegistration p{
+    font-size: 0.8rem;
+}
+.userRegistration h4{
+    padding: 0.5rem 0;
+}
+.userName{
+    width: 6.5rem;
+}
+/* .progressBar{
+    width: 5rem;
+} */
+.progressBar progress{
+    width: 5rem;
+}
+
+.userRegistration img{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+  .userRegistration button{
+    width: 1rem;
+    height: 1.5rem;
+    background-color: #f3f6fc;
+    color: grey;
+    
+  }
+  .userRegistration button:hover{
+    background-color: #4f6ee2;
+    color: #fff;
+  }
+  .mat-mdc-progress-bar {
+    --mdc-linear-progress-active-indicator-color:lightblue;
+    --mdc-linear-progress-track-color: #fff;
+}

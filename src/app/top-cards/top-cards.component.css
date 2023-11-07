@@ -1,0 +1,16 @@
+.savingCards{
+    width: 100%;
+    padding: 2rem 0;
+}
+.savingCards .topCards{
+    /* width: 20%; */
+    height: 8rem;
+    
+    padding: 1rem;
+}
+.savingCards mat-card{
+    box-shadow: 0 0 0 0;
+    min-width: 15rem;
+    width: 100%;
+    
+}

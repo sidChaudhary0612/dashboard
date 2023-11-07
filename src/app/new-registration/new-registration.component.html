@@ -1,0 +1,25 @@
+<div class="userRegistration" >
+    <mat-card>
+        <h4>New User Registrations</h4>
+        <div fxLayout="row" fxLayoutGap="1rem" fxLayoutAlign="space-between center" *ngFor="let user of new_users">
+            
+            <div fxLayout="row" fxLayoutGap="1rem" fxLayoutAlign="start center" >
+                <img src={{user.picture}}>
+                <div class="userName" >
+                <p>{{user.name}}</p>
+                <h5>{{user.country}}</h5>
+                </div>
+                
+                <div class="progressBar" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="5px">
+                    <!-- <mat-progress-bar mode="determinate" value="{{user.progress}}"></mat-progress-bar><p>{{user.progress}}%</p> -->
+                    <progress id="file" value="{{user.progress}}" max="100"></progress> <p>{{user.progress}}%</p> 
+                </div>
+            </div>
+            
+
+                <button mat-flat-button>More</button>
+            
+            
+        </div>
+    </mat-card>
+</div>

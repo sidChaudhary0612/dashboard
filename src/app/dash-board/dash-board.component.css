@@ -1,0 +1,13 @@
+.background{
+   background-color: hsl(218, 57%, 97%);width: 100%;min-height: 100vh;
+   padding: 6rem 2rem 2rem 7rem;
+}
+
+.charts{
+    padding: 2rem 0;
+}
+.charts mat-card{
+    box-shadow: 0 0 0 0;
+    padding: 1rem;
+    height: 100%;
+}
