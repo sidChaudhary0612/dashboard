@@ -24,6 +24,7 @@ import { SalesChartComponent } from './sales-chart/sales-chart.component';
 import { TopProductsChartComponent } from './top-products-chart/top-products-chart.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatBadgeModule} from '@angular/material/badge';
+import { DatePipe } from '@angular/common';
 
 
 @NgModule({
@@ -44,7 +45,7 @@ import {MatBadgeModule} from '@angular/material/badge';
     AppRoutingModule,MatBadgeModule,MatButtonModule,NgApexchartsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
