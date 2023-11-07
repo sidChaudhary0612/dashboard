@@ -23,6 +23,7 @@ import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { SalesChartComponent } from './sales-chart/sales-chart.component';
 import { TopProductsChartComponent } from './top-products-chart/top-products-chart.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatBadgeModule} from '@angular/material/badge';
 
 
 @NgModule({
@@ -40,7 +41,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
   ],
   imports: [
     BrowserModule,MatSliderModule,MatProgressBarModule,MatSelectModule,FlexLayoutModule,MatCardModule,MatIconModule,MatTableModule,
-    AppRoutingModule,MatButtonModule,NgApexchartsModule,
+    AppRoutingModule,MatBadgeModule,MatButtonModule,NgApexchartsModule,
     BrowserAnimationsModule
   ],
   providers: [],

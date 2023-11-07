@@ -47,7 +47,7 @@ export class SalesChartComponent {
         }
       ],
       chart: {
-        height: 350,
+        height: 250,
         type: "line",
         dropShadow: {
           enabled: true,

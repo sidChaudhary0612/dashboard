@@ -8,6 +8,37 @@
     
     padding: 1rem;
 }
+.savingCards .topCards h1,h5,mat-icon{
+    color: #506de2;
+}
+ .savingCards .topCards h3{
+    color: #324283;
+}
+.savingCards .topCards:hover h1{
+    color: #fff;
+}
+.savingCards .topCards:hover h3{
+    color: #fff;
+}
+.savingCards .topCards:hover h5{
+    color: #fff;
+}
+.savingCards .topCards:hover mat-icon{
+    color: #fff;
+}
+
+
+
+
+/*
+.savingCards .topCards:hover h1,h5,h3,mat-icon{
+    color: #fff;
+} */
+.savingCards .topCards:hover {
+    background-color: #506de2;
+    color: #fff;
+
+}
 .savingCards mat-card{
     box-shadow: 0 0 0 0;
     min-width: 15rem;
